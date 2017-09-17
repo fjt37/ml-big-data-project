@@ -1,11 +1,10 @@
-To: The Big Boss
-From: Jay Tappen and Kenny Shu
-Date: Sept 22, 2017
-Subject: Machine Learning for Bitcoin Prediction
-
 # Project Proposal
 
-Bitcoin is a worldwide cryptocurrency and digital payment system. It is initialized in 2009 and grows exponentially over the years, with a price over 3k in 2017. It has highly secured payment system with its unique traits.Bitcon works differently from other traditional financial product, it ... 
+### Introduction to Bitcoin
+
+Bitcoin is an international cryptocurrency and digital payment system. It was initialized in 2009 and its value has grown exponentially over the years, with a price of over 3,000 USD per Bitcoin in 2017. It has been the most successful cryptocurrency to date in terms of market capitalization and public recognition.
+
+It was designed around a secure protocol originally put forth under a pseudonym in [this paper](https://bitcoin.org/en/bitcoin-paper). The protocol revolves around the "blockchain", which is a datastructure that can thought of like a linked list. Each node in the list is a set of transactions, called a "block". As Bitcoin "mining" is the 
 
 We are trying to develop an algorithm to predict the future price of bitcoin.
 
