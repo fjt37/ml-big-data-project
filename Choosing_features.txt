@@ -28,9 +28,3 @@ Historical Data
 
 
 
-Volume
- - From the same days we choose price from
- - Just yesterday?
-
-Market Cap
- - Market Cap
