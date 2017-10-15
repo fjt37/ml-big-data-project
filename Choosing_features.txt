@@ -1,0 +1,36 @@
+Historical Data
+	- Raw features:
+	 	- Price 
+	 		- start with just this, and then maybe add more
+	 	- Volume 
+	 		- number of transactions
+	 	- Bitcoin count 
+	 		- number of bitcoins
+	 	- Difficulty 
+	 		- how hard it is to mine - a measure of number of miners
+	 	- Hash rate
+	 		- How many hashes are being computed by the mining community
+	 		- Proportional to the number of miners, how much money they have invested in harware for mining
+	 		- Inversely proportional to difficulty
+	 	- Transactions per block 
+	 		- mining rate is kept more or less constant, so this is a good measure of transaction rate
+	 		- could be used instead of volume, depending on our timestep. Volume is better if using daily data
+	 	- Transaction fee as percent
+	 		- Like an interest rate on a credit card purchase
+	 	- Number unique addresses
+	 		- essentially the number of users
+	 - Hierarchy of Features
+	 	- Price
+	 		- Volume
+	- How much:
+		- single values from yesterday, last week, last year
+		- every day for the last week/month/year
+
+
+
+Volume
+ - From the same days we choose price from
+ - Just yesterday?
+
+Market Cap
+ - Market Cap
