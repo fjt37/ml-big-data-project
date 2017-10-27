@@ -1,10 +1,12 @@
 # Introduction
 
-We have looked more closely at our data and taken note of some characteristics of our dataset. We have run preliminary analysis to test the viability of predicting Bitcoin price and shown some early success at modeling the data. We have also established some tests we want to run in the future and other modeling strategies we would like to try.
+The goal of our project is to predict the price of Bitcoin. Bitcoin is the largest cryptocurrency in terms of market capitalization and public recognition, and is currently collectively worth about 100 billion USD. It is of interest to individuals and large firms alike for investment purposes, which definitely means that it would be advantageous to have a predictive model of the price. Large companies such as Microsoft and Overstock have started accepting Bitcoin as payment for purchases, which means they need to know what the Bitcoin price is going to look like in the near future for accurate pricing. Our project to predict Bitcoin’s price can be valuable in numerous ways since Bitcoin has come to have a more and more crucial role in the financial market.
+
+For more technical details about Bitcoin, here is [a good blog post](http://journalclub.deciphernow.com/main/2017/08/07/bitcoin.html) and [the official website](https://bitcoin.org/en/how-it-works).
 
 # Dataset
 
-The dataset is time series data with a total of 1581 samples with 24 features. Each sample represents one day.
+Overall, we plan to use historical date to train our model. The dataset is time series data with a total of 1581 samples with 24 features. Each sample represents one day, up to the present, which means the dataset covers roughly the last 5 and a half years.
 
 There are two primary data sets that we are going to adopt. One consists of historical data on price, market capitalization, and trading volume. Such data possesses a more direct relationship to the bitcoin price. We are going to use the historical price data and the volume as the main predictors for the future price.
 
